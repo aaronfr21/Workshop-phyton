@@ -5,7 +5,7 @@
 # TUTORIAL BAB 4
 Sumber : [tutorial python](https://docs.python.org/3.10/tutorial/controlflow.html)
 
-file source code bab 4 : [minggu-02](src/minggu-02/)
+file source code bab 4 : [minggu-02](https://github.com/aaronfr21/Workshop-phyton/tree/main/minggu-02)
 
 **Macam-macam Control Flow**
 Selain menggunakan pernyataan while yang sudah ada pada materi [minggu pertama](MINGGU-1.md) terdapat beberapa pernyataan control flow lainnya yang juga dikenal / digunakan pada bahasa pemrograman lainnya.
