@@ -1,5 +1,5 @@
-BAB 5 STRUKTUR DATA Pada bab ini dijelaskan beberapa hal yang telah kita pelajari menjadi lebih rinci, serta menambahkan beberapa hal baru
-
+BAB 5 STRUKTUR DATA 
+Pada bab ini dijelaskan beberapa hal yang telah kita pelajari menjadi lebih rinci, serta menambahkan beberapa hal baru
 Struktur data adalah cara kita dalam menyimpan dan mengambil data. Anda mungkin sudah terbiasa dengan daftar dan kamus Python atau array Javascript dan objek. Jika demikian, Anda tahu bahwa daftar dan array berurutan dengan data yang diakses oleh indeks sementara kamus dan objek menggunakan kunci bernama untuk menyimpan dan mengambil informasi.
 
 #List / Daftar Berikut ini merupakan method list:
