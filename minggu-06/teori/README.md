@@ -1,4 +1,4 @@
-Penanganan Error dan Exception
+# Penanganan Error dan Exception
 
 Sampai sekarang pesan kesalahan belum lebih dari yang disebutkan, tetapi jika kita telah mencoba contoh mungkin telah melihat beberapa. Berikut ini adlah bebarapa error dalam pyhton
 
