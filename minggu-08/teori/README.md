@@ -111,7 +111,7 @@ Python melakukan manajemen memori otomatis (penghitungan referensi untuk sebagia
 
 Pendekatan ini bekerja dengan baik untuk sebagian besar aplikasi tetapi kadang-kadang ada kebutuhan untuk melacak objek hanya selama mereka digunakan oleh sesuatu yang lain. Sayangnya, hanya melacak mereka membuat referensi yang menjadikannya permanen. Modulweakref menyediakan alat untuk melacak objek tanpa membuat referensi. Ketika objek tidak lagi diperlukan, objek tersebut secara otomatis dihapus dari tabel referensi lemah dan panggilan balik dipicu untuk objek referensi lemah. Aplikasi umum termasuk objek caching yang mahal untuk dibuat:
 
-*11.7. Tools for Working with Lists
+* 11.7. Tools for Working with Lists
 
 Banyak kebutuhan struktur data dapat dipenuhi dengan tipe daftar bawaan. Namun, terkadang ada kebutuhan untuk implementasi alternatif dengan pertukaran kinerja yang berbeda.
 
