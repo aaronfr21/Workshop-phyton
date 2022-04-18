@@ -3,14 +3,7 @@
 * 10.1. Operating System Interface
 
 Modul os menyediakan banyak fungsi untuk berinteraksi dengan sistem operasi
-```markdown
->>> import os
->>> os.getcwd()      # Return the current working directory
-'C:\\Python310'
->>> os.chdir('/server/accesslogs')   # Change current working directory
->>> os.system('mkdir today')   # Run the command mkdir in the system shell
-0 
-```
+
 Fungsi built-in dir() dan help() berguna sebagai bantuan interaktif untuk bekerja dengan modul besar seperti os
 
 Untuk tugas manajemen file dan direktori harian, modul shutil menyediakan antarmuka tingkat tinggi yang lebih mudah digunakan
