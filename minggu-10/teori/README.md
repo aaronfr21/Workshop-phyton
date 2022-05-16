@@ -84,14 +84,14 @@ Pada file `requirements.txt` menyertakan pustaka yang diperlukan untuk terhubung
 
 Pada file `dbinit.sql` menginisialisasi skema database yang digunakan aplikasi yaitu:
 
-`CREATE TABLE accounts (`
-    `id UUID PRIMARY KEY,`
-    `balance INT8`
-`);`
+``CREATE TABLE accounts (
+    `id UUID PRIMARY KEY,
+    `balance INT8
+);``
 
 Menggunakan SQLAlchemy models.py untuk memetakan Accounts tabel ke objek Python:
 
-`from sqlalchemy import Column, Integer
+``from sqlalchemy import Column, Integer
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import declarative_base
 
@@ -103,7 +103,7 @@ class Account(Base):
     """
     __tablename__ = 'accounts'
     id = Column(UUID(as_uuid=True), primary_key=True)
-    balance = Column(Integer)`
+    balance = Column(Integer)``
 
 File main.py digunakan untuk memetakan metode Python ke operasi SQL:
 
