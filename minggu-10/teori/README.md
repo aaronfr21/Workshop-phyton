@@ -214,23 +214,28 @@ main.py juga mengeksekusi main metode program.
 Langkah - langkah menggunakan virtualenv utnuk manajemen ketergantungan.
 
 1. Instal virtualenv
+     
      pip install virtualenv
 
 2. Di tingkat atas direktori proyek aplikasi, buat lalu aktifkan lingkungan virtual:
+     
      virtualenv env
      source env/bin/activate
 
 3. Instal modul yang akan digunakan atau diperlukan ke lingkungan virtual:
+     
      pip install -r requirements.txt
 
 * Langkah 4. Menginstal database
 
 1. Setel DATABASE_URL environment variable ke string koneksi untuk cluster:
+     
      export DATABASE_URL="{connection-string}"
 
 Dimana {connection-string} string koneksi yang kita peroleh dari CockroachDB Cloud Console.
 
 2. Untuk menginisialisasi database contoh, gunakan Cockroach SQL perintah untuk mengeksekusi pernyataan SQL dalam dbinit.sqlfile:
+     
      cat dbinit.sql | cockroach sql --url $DATABASE_URL
 
 Pernyataan SQL dalam file inisialisasi harus dijalankan:
