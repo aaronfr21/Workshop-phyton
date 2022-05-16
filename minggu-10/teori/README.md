@@ -67,9 +67,13 @@ Balances at Fri Oct 30 18:27:00 2020:
 Dalam projek diatas memiliki struktur direktori berikut ini:
 
 `├── README.md`
+
 `├── dbinit.sql`
+
 `├── main.py`
+
 `├── models.py`
+
 `└── requirements.txt`
 
 Pada file `requirements.txt` menyertakan pustaka yang diperlukan untuk terhubung ke CockroachDB dengan SQLAlchemy, termasuk `sqlalchemy-cockroachdb` Python package, yang menjelaskan beberapa perbedaan antara CockroachDB dan PostgresSQL:
