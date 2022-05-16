@@ -271,7 +271,7 @@ Maka hasil output akan terlihat seperti berikut ini:
      Deleted account a1acb134-950c-4882-9ac7-6d6fbdaaaee1.
      Deleted account e4f33c55-7230-4080-b5ac-5dde8a7ae41d.`
 
-     Kemudian terlihat dalam shell SQL yang terhubung ke cluster, kita dapat verifikasi bahwa baris berhasil dimasukkan, diperbarui, dan dihapus.
+Kemudian terlihat dalam shell SQL yang terhubung ke cluster, kita dapat verifikasi bahwa baris berhasil dimasukkan, diperbarui, dan dihapus.
 
      SELECT COUNT(*) FROM accounts;
      count
