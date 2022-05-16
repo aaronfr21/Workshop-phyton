@@ -63,26 +63,27 @@ Balances at Fri Oct 30 18:27:00 2020:
 * Langkah 2. Melakukan clone repo GitHub:
 
 ` git clone https://github.com/cockroachlabs/example-app-python-sqlalchemy/ `
+
 Dalam projek diatas memiliki struktur direktori berikut ini:
 
-`├── README.md
-├── dbinit.sql
-├── main.py
-├── models.py
-└── requirements.txt`
+`├── README.md`
+`├── dbinit.sql`
+`├── main.py`
+`├── models.py`
+`└── requirements.txt`
 
-Pada file `requirements.txt` menyertakan pustaka yang diperlukan untuk terhubung ke CockroachDB dengan SQLAlchemy, termasuk `sqlalchemy-cockroachdb` Python package, yang menjelaskna beberapa perbedaan antara CockroachDB dan PostgresSQL:
+Pada file `requirements.txt` menyertakan pustaka yang diperlukan untuk terhubung ke CockroachDB dengan SQLAlchemy, termasuk `sqlalchemy-cockroachdb` Python package, yang menjelaskan beberapa perbedaan antara CockroachDB dan PostgresSQL:
 
-`psycopg2-binary
-sqlalchemy
-sqlalchemy-cockroachdb`
+`psycopg2-binary`
+`sqlalchemy`
+`sqlalchemy-cockroachdb`
 
 Pada file `dbinit.sql` menginisialisasi skema database yang digunakan aplikasi yaitu:
 
-`CREATE TABLE accounts (
-    id UUID PRIMARY KEY,
-    balance INT8
-);`
+`CREATE TABLE accounts (`
+    `id UUID PRIMARY KEY,`
+    `balance INT8`
+`);`
 
 Menggunakan SQLAlchemy models.py untuk memetakan Accounts tabel ke objek Python:
 
