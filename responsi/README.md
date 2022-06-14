@@ -1,12 +1,14 @@
 RESPONSI 
 
 # Import package pandas dulu untuk mengambil datanya 
-
+```python
 import pandas as pd
 import numpy as pd
+```
 
 # untuk menampilkan data insurancenya 
 
+```python
 data_olah = 'insurance.csv'
 dataset = pd.read_csv(data_olah)
 dataset.head(20)
@@ -32,9 +34,11 @@ dataset.head(20)
 17	23	male	23.845	0	no	northeast	2395.17155
 18	56	male	40.300	0	no	southwest	10602.38500
 19	30	male	35.300	0	yes	southwest	36837.46700
+```
 
 # menampilkan bagian data pada kolom sex, bmi serta children 
 
+```python
 dataset.isnull().sum()
 
 age         0
@@ -45,9 +49,11 @@ smoker      0
 region      0
 charges     0
 dtype: int64
+```
 
 # menampilkan 5 data awal 
 
+```python
 print(dataset.head(5))
 
    age     sex     bmi  children smoker     region      charges
@@ -56,9 +62,11 @@ print(dataset.head(5))
 2   28    male  33.000         3     no  southeast   4449.46200
 3   33    male  22.705         0     no  northwest  21984.47061
 4   32    male  28.880         0     no  northwest   3866.85520
+```
 
 # menampilkan data dari kolom 1 sampai 3
 
+```python
 data = dataset.iloc[:,1:4]
 data
 
@@ -75,3 +83,4 @@ data
 1336	female	25.800	0
 1337	female	29.070	0
 1338 rows × 3 columns
+```
